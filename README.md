@@ -4,7 +4,7 @@
 A X Corporate é uma corretora que vende seguros para empresas. Os dados fictícios representam vendas (emissão)  e receita (pagamento) de janeiro de 2019 a junho de 2020
 Os arquivos possuem informações de ano, mês, seguradora, vendedor, total de apólices e valor de venda/receita
 
-1. Faça uma análise gráfica de vendas da empresa, destacando seguradoras e vendedores com maior impacto nos resultados do ano de 2019, considerando número de apólices e valor de venda, identificando possíveis outliers. 
-2. Faça a estimativa de inadimplência, ou seja, a falta de pagamento, para 2020, com base em 2019. Qual a seguradora com maior probabilidade de inadimplência?
-3. Utilize os dados para fazer a previsão mensal de receita de julho a dezembro do ano de 2020. 
-4. Qual outra análise poderia ser feita com os dados? Mostre o raciocínio e os resultados.
+1. Realize uma análise gráfica das vendas da empresa, destacando as seguradoras e vendedores que tiveram maior impacto nos resultados do ano de 2019, levando em consideração o número de apólices e o valor de venda. Identifique possíveis outliers.
+2. Faça a estimativa de inadimplência para o ano de 2020, com base em dados de 2019. Qual seguradora apresenta maior probabilidade de inadimplência?
+3. Utilize os dados disponíveis para fazer uma previsão mensal da receita de julho a dezembro de 2020.
+4. Além das análises mencionadas, que outras análises poderiam ser realizadas com os dados disponíveis? Apresente o raciocínio utilizado e os resultados obtidos.
