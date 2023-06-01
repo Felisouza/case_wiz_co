@@ -1,0 +1,76 @@
+{	
+    "name": "catchu",
+    "dataColors": ["#FFCF70", "#AC68D5", "#ED5C7B", "#A7654A", "#B6B3B3"],
+    "background": "#F9F4F1",    
+    "foreground": "#F9F4F1",
+    "visualStyles": {
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#F9F4F1"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "textbox": {
+			"*": {
+                "title": [{
+                    "fontFamily":"Raleway Thin",
+                    "divider": [{"show":false}]
+                }],
+				"*": [
+					{
+						"fontSize": 11,
+						"fontFamily": "Barlow",
+                        "wordWrap": true,
+						"color": { "solid": { "color": "#808080"} }, 
+                        "visualHeader":[{"show":false}],
+                        "bottomBorder": false
+				}]}},
+        "*":{
+            "enableBackground": false,
+            "*":{
+                "title":[{"show": true, "fontFamily":"Raleway Thin"}],
+                "fontFamily":"Raleway Thin",
+                "transparency":100              
+            }              
+        },
+
+        "card":{  
+            "*":{        	
+                "labels": [{
+                    "color": { "solid": { "color": "#A7654A" } },
+                    "labelDisplayUnits": 0,
+                    "LabelPrecision": 0,
+                    "fontSize": 40,
+                    "fontFamily": "Barlow"				
+                }],			
+			"border": [{
+                "show": false,
+                "color": { "solid": { "color": "#30770F"}}, 
+                "radius": 15                
+            }],
+			"background": [{"transparency": 100}],
+			"categoryLabels": [{
+				"show" : false
+			}],
+			
+			"title": [{
+                "show": false,
+                "fontColor": { "solid": { "color": "#D3D3D3" } },
+                    "transparency": 100,
+                "alignment": "center",
+                "fontSize": 15,
+                "fontFamily": "Raleway Thin"
+                }]
+			
+            }
+        }
+    }
+}
