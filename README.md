@@ -6,6 +6,8 @@ Como parte do processo seletivo de Analista de Dados BI, o desafio é realizar u
 
 O desafio consiste em extrair insights relevantes desses dados, visando identificar padrões, tendências e oportunidades de melhoria no desempenho da Wiz Corporate. Utilizando suas habilidades analíticas e conhecimentos em ferramentas como Python, SQL, Tableau e pacote Office, o(a) candidato(a) selecionado(a) será responsável por manipular e visualizar os dados, produzindo relatórios e insights acionáveis para a equipe de gestão.
 
+O notebook com a exploração inicial dos dados e tratamento pode ser visto [aqui](https://github.com/Felisouza/case_wiz_co/blob/main/felipe_case.ipynb). Já o dashboard com a análise final está [aqui](https://github.com/Felisouza/case_wiz_co/blob/main/dashboard_vendas_receitas1.pbix)
+
 ## Perguntas
 
 1. Realize uma análise gráfica das vendas da empresa, destacando as seguradoras e vendedores que tiveram maior impacto nos resultados do ano de 2019, levando em consideração o número de apólices e o valor de venda. Identifique possíveis outliers.
