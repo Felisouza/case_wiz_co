@@ -29,6 +29,7 @@
 						"fontSize": 11,
 						"fontFamily": "Barlow",
                         "wordWrap": true,
+                        "transparency":100,
 						"color": { "solid": { "color": "#808080"} }, 
                         "visualHeader":[{"show":false}],
                         "bottomBorder": false
