@@ -2,11 +2,11 @@
 
 A Wiz Corporate, uma corretora completa de seguros especialista em bancassurance e na distribuição de consórcio e crédito. Atua com ampla oferta de serviços para extrair valor de diferentes canais, gerando oportunidades e potencializando negócios com dinamismo, sinergia e expertise no mercado. Opera como um ecossistema completo de negócios em seguros e produtos financeiros, oferecendo soluções completas de venda e pós-venda em todo o território nacional. Com mais de 49 anos de experiência, tem como objetivo potencializar os resultados de nossos clientes e parceiros por meio de soluções presenciais, remotas e digitais.
 
-Como parte do processo seletivo de Analista de Dados BI, o desafio é realizar uma análise abrangente dos dados de vendas e receitas no período de janeiro de 2019 a junho de 2020. Os dados fornecidos contêm informações sobre o ano, mês, seguradora, vendedor, total de apólices e valor de venda/receita.
+Como parte do processo seletivo de Analista de Inteligência e Performance, o desafio é realizar uma análise abrangente dos dados de vendas e receitas no período de janeiro de 2019 a junho de 2020. Os dados fornecidos contêm informações sobre o ano, mês, seguradora, vendedor, total de apólices e valor de venda/receita.
 
 O desafio consiste em extrair insights relevantes desses dados, visando identificar padrões, tendências e oportunidades de melhoria no desempenho da Wiz Corporate. Utilizando suas habilidades analíticas e conhecimentos em ferramentas como Python, SQL, Tableau e pacote Office, o(a) candidato(a) selecionado(a) será responsável por manipular e visualizar os dados, produzindo relatórios e insights acionáveis para a equipe de gestão.
 
-O notebook com a exploração inicial dos dados e tratamento pode ser visto [aqui](https://github.com/Felisouza/case_wiz_co/blob/main/felipe_case.ipynb). Já o dashboard com a análise final está [aqui](https://github.com/Felisouza/case_wiz_co/blob/dc22330de71b538fde4ff02b40f9c96c5e2ad510/dashboard_vendas_receitas.pdf)
+O notebook com a exploração inicial dos dados e tratamento pode ser visto [aqui](https://github.com/Felisouza/caseSeguradora/blob/main/felipe_case_wizco.ipynb). Já o dashboard com a análise final está [aqui](https://github.com/Felisouza/case_wiz_co/blob/dc22330de71b538fde4ff02b40f9c96c5e2ad510/dashboard_vendas_receitas_final.pdf)
 
 ## Perguntas
 
