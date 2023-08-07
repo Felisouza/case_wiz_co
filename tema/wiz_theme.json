@@ -1,9 +1,36 @@
 {	
-    "name": "catchu",
-    "dataColors": ["#FFCF70", "#AC68D5", "#ED5C7B", "#A7654A", "#B6B3B3"],
-    "background": "#F9F4F1",    
-    "foreground": "#F9F4F1",
+    "name": "wiz_theme",
+    "dataColors": ["#FFCF70", "#AC68D5", "#DCDCDC", "#ED5C7B", "#A7654A", "#B6B3B3"],
+    "background": "#F9F4F1",
+    "good":"#FFCF70",
+    "neutral":"#AC68D5",
+    "bad": "#ED5C7B",
     "visualStyles": {
+        "*":{
+            "*":{
+                "background": [{"transparency": 100}],
+                "categoryLabels": [{
+                    "show" : false
+                }],
+                
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#808080" } },
+                        "transparency": 100,
+                    "alignment": "center",
+                    "fontSize": 15,
+                    "fontFamily": "Raleway Thin"
+                    }],
+                "valueAxis": [{
+                        "showAxisTitle":false
+                    }],
+                "categoryAxis":[
+                    {
+                        "showAxisTitle":false
+                    }
+                ]
+            }
+        },
         "page": {
             "*": {
                 "background": [
@@ -33,16 +60,8 @@
 						"color": { "solid": { "color": "#808080"} }, 
                         "visualHeader":[{"show":false}],
                         "bottomBorder": false
-				}]}},
-        "*":{
-            "enableBackground": false,
-            "*":{
-                "title":[{"show": true, "fontFamily":"Raleway Thin"}],
-                "fontFamily":"Raleway Thin",
-                "transparency":100              
-            }              
+				}]}         
         },
-
         "card":{  
             "*":{        	
                 "labels": [{
@@ -52,26 +71,51 @@
                     "fontSize": 40,
                     "fontFamily": "Barlow"				
                 }],			
-			"border": [{
-                "show": false,
-                "color": { "solid": { "color": "#30770F"}}, 
-                "radius": 15                
-            }],
-			"background": [{"transparency": 100}],
-			"categoryLabels": [{
-				"show" : false
-			}],
-			
-			"title": [{
-                "show": false,
-                "fontColor": { "solid": { "color": "#D3D3D3" } },
-                    "transparency": 100,
-                "alignment": "center",
-                "fontSize": 15,
-                "fontFamily": "Raleway Thin"
-                }]
-			
+                "border": [{
+                    "show": true,
+                    "color": { "solid": { "color": "#F9F4F1"}}, 
+                    "radius": 15                
+                }],
+                "dropShadow":[
+                    {
+                        "show":true,
+                        "color": { "solid": { "color": "#ED5C7B" } }
+                    }
+                ],
+                "background": [{"transparency": 100}],
+                "categoryLabels": [{
+                    "show" : false
+                }],
+                
+                "title": [{
+                    "show": true,
+                    "fontColor": { "solid": { "color": "#808080" } },
+                        "transparency": 100,
+                    "alignment": "center",
+                    "fontSize": 15,
+                    "fontFamily": "Raleway Thin"
+                    }]
             }
+        },
+        "lineChart":{
+            "*":{
+                "lineStyles": [{
+					"strokeWidth": 3,
+					"strokeLineJoin": "bevel",
+					"lineStyle": "solid",
+					"showMarker": true,
+					"markerShape": "circle",
+					"markerSize": 6
+				}],
+                "labels":[
+                    {
+                        "show":true,
+                        "fontSize": 10,
+                        "color": { "solid": { "color": "#808080"}}
+                    }
+                ]
+            }
+        
         }
     }
 }
